@@ -7,8 +7,8 @@ import static battleship.Location.HIT;
 public class Grid {
   public static final int GRID_DIMENSION = 5;
   // Constants for number of rows and columns.
-  public static final int NUM_ROWS = GRID_DIMENSION;
-  public static final int NUM_COLS = GRID_DIMENSION;
+  public static final int NUM_ROWS = Constants.GRID_DIMENSION;
+  public static final int NUM_COLS = Constants.GRID_DIMENSION;
   private Location[][] grid;
   private int points;
 
