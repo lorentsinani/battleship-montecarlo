@@ -10,5 +10,5 @@ public class Field {
   public Field(int inRow, int inCol) {
     row = inRow;
     col = inCol;
-  }
+}
 }
