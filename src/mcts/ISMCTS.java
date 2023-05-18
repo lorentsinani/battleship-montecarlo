@@ -27,7 +27,7 @@ public class ISMCTS {
         resultsMatrix.incrementRowCol(field.getMove(), field.getWinChance());
       }
     }
-
+                
     resultsMatrix.print();
     resultsMatrix.divide(iterationCount);
     return resultsMatrix.bestField();
