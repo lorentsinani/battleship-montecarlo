@@ -12,7 +12,7 @@ public class Battleship {
   public static Scanner reader = new Scanner(System.in);
 
   public static void main(String[] args) {
-    System.out.println("JAVA BATTLESHIP - ** Yuval Marcus **");
+    System.out.println("JAVA BATTLESHIP");
 
     System.out.println("\nPlayer SETUP:");
     Player userPlayer = new Player("Player");
