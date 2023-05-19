@@ -121,7 +121,8 @@ class Determinization {
   }
 
   static List<Determinization> createDeterminizations(Player comp, Player user, int count) {
-    long maxTime = 8000l;
+//    long maxTime = 8000L;
+    long maxTime = 4000L;
 
     long currentTime = System.currentTimeMillis();
     long endTime = currentTime + maxTime;

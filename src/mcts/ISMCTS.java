@@ -28,7 +28,7 @@ public class ISMCTS {
       }
     }
                 
-    resultsMatrix.print();
+    resultsMatrix.printAndWriteToImage();
     resultsMatrix.divide(iterationCount);
     return resultsMatrix.bestField();
   }
